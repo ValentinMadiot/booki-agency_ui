@@ -2,11 +2,7 @@
 
 /*FONT RELEWAY*/
 * {
-<<<<<<< HEAD
-  font-family: 'Raleway', sans-serif;
-=======
   font-family: "Raleway", sans-serif;
->>>>>>> 379ef48 (update)
 }
 
 /*CSS BOX-SIZING*/
@@ -15,12 +11,15 @@
 }
 
 /*COLORS*/
+:root {
+  --colorprimary: #0065fc;
+  --colorsecond: #deebff;
+  --colorthird: #f2f2f2;
+  --colorfourth: #7c7c7c44;
+}
+
 .color-blue {
-<<<<<<< HEAD
-  color: #0065FC;
-=======
   color: #0065fc;
->>>>>>> 379ef48 (update)
 }
 .color-bluelight {
   color: #deebff;
@@ -31,27 +30,10 @@
 .color-greydark {
   color: #7c7c7c44;
 }
-.backcolor-blue {
-<<<<<<< HEAD
-  background-color: #0065FC;
-=======
-  background-color: #0065fc;
->>>>>>> 379ef48 (update)
-}
-.backcolor-bluelight {
-  background-color: #deebff;
-}
-.backcolor-grey {
-  background-color: #f2f2f2;
-}
 
 /*MAIN SECTIONS*/
-<<<<<<< HEAD
-header, main {
-=======
 header,
 main {
->>>>>>> 379ef48 (update)
   max-width: 1440px;
   margin: auto;
 }
@@ -59,12 +41,8 @@ body {
   width: 100%;
   min-width: 320px;
 }
-<<<<<<< HEAD
-ul, li {
-=======
 ul,
 li {
->>>>>>> 379ef48 (update)
   list-style: none;
   padding: 0%;
   margin: 0%;
@@ -73,25 +51,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
-<<<<<<< HEAD
-.overflow{
-=======
 .overflow {
->>>>>>> 379ef48 (update)
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 379ef48 (update)
 /***HEADER***/
 
 /*NAVIGATION*/
@@ -121,19 +86,10 @@ a {
   border-top: 3px solid transparent;
 }
 .nav-button:hover {
-  border-top: 3px solid #0065fc;
-  color: #0065fc;
+  border-top: 3px solid var(--colorprimary);
+  color: var(--colorprimary);
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 379ef48 (update)
 /***MAIN***/
 
 /**SECTION 1**/
@@ -153,7 +109,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var(--colorthird);
   border-radius: 15px;
 }
 .search-ico {
@@ -162,7 +118,7 @@ a {
   align-items: center;
   width: 50px;
   height: 50px;
-  background-color: #f2f2f2;
+  background-color: var(--colorthird);
   border-radius: 15px 0 0 15px;
 }
 .search-value {
@@ -184,25 +140,7 @@ a {
   height: 50px;
   font-size: 18px;
   color: white;
-<<<<<<< HEAD
-  background-color: #0065FC;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 0 15px 15px 0; 
-}
-/*SEARCH BUTTON MOBILE*/
-.desktop-none { 
-  display: none;
-}
-
-
-
-
-
-
-
-=======
-  background-color: #0065fc;
+  background-color: var(--colorprimary);
   font-weight: bold;
   cursor: pointer;
   border-radius: 0 15px 15px 0;
@@ -212,7 +150,6 @@ a {
   display: none;
 }
 
->>>>>>> 379ef48 (update)
 /*FILTER*/
 .filter-bloc {
   display: flex;
@@ -240,12 +177,8 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 30px;
-<<<<<<< HEAD
-  color :#0065FC;
-=======
-  color: #0065fc;
->>>>>>> 379ef48 (update)
-  background-color: #deebff;
+  color: var(--colorprimary);
+  background-color: var(--colorsecond);
   margin-left: -4px;
 }
 .filter-icotxt {
@@ -255,15 +188,11 @@ a {
   height: 50px;
   border-radius: 30px;
   margin-right: 15px;
-  border: 2px solid #7c7c7c44;
+  border: 2px solid var(--colorfourth);
   cursor: pointer;
 }
 .filter-icotxt:hover {
-<<<<<<< HEAD
-  background-color: #0065FC;
-=======
-  background-color: #0065fc;
->>>>>>> 379ef48 (update)
+  background-color: var(--colorprimary);
   color: white;
   transform: scale(1.03);
   transition-duration: 300ms;
@@ -278,7 +207,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #7c7c7c44;
+  border: 2px solid var(--colorfourth);
   font-size: large;
   width: 25px;
   height: 25px;
@@ -288,15 +217,6 @@ a {
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 379ef48 (update)
 /**SECTION 2**/
 
 /*HOST + POPULAR*/
@@ -310,15 +230,11 @@ a {
 /*HOST MARSEILLE*/
 .host-bloc {
   display: flex;
-<<<<<<< HEAD
-  justify-content:space-evenly;
-=======
   justify-content: space-evenly;
->>>>>>> 379ef48 (update)
   flex-direction: column;
   flex: 2;
   min-width: 65%;
-  background-color: #f2f2f2;
+  background-color: var(--colorthird);
   border-radius: 20px;
   margin-right: 3%;
 }
@@ -398,11 +314,7 @@ a {
 }
 .host-ptxt {
   height: 30%;
-<<<<<<< HEAD
-  margin: 6px 0px 10px 0px
-=======
   margin: 6px 0px 10px 0px;
->>>>>>> 379ef48 (update)
 }
 .host-stars {
   display: flex;
@@ -415,34 +327,18 @@ a {
 }
 .host-p:hover {
   cursor: pointer;
-<<<<<<< HEAD
-  color: #0065FC;
+  color: var(--colorprimary);
 }
 
-
-
-
-
-
-
-=======
-  color: #0065fc;
-}
-
->>>>>>> 379ef48 (update)
 /*MOST POPULAR*/
 .popular-bloc {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  justify-content:space-evenly;
-=======
   justify-content: space-evenly;
->>>>>>> 379ef48 (update)
   align-items: center;
   flex-direction: column;
   flex: 1;
-  background-color: #f2f2f2;
+  background-color: var(--colorthird);
   border-radius: 25px;
 }
 .popular-title {
@@ -474,68 +370,37 @@ a {
   width: 37%;
   height: 100%;
   border-radius: 15px 0 0 15px;
-<<<<<<< HEAD
- }
- .popular-img2 {
-=======
 }
 .popular-img2 {
->>>>>>> 379ef48 (update)
   object-fit: cover;
   width: 37%;
   height: 100%;
   border-radius: 15px 0 0 15px;
-<<<<<<< HEAD
- }
- .popular-img3 {
-=======
 }
 .popular-img3 {
->>>>>>> 379ef48 (update)
   object-fit: cover;
   width: 37%;
   height: 100%;
   border-radius: 15px 0 0 15px;
-<<<<<<< HEAD
- }
-=======
 }
->>>>>>> 379ef48 (update)
 .popular-txt {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 63%;
   font-size: 90%;
-<<<<<<< HEAD
-  padding: 5px 15px 5px 20px; 
-=======
   padding: 5px 15px 5px 20px;
->>>>>>> 379ef48 (update)
   border-radius: 0 15px 15px 0;
   background-color: white;
 }
 .popular-subtitle {
-<<<<<<< HEAD
-  margin: 5px 0px 5px 0px; 
-=======
   margin: 5px 0px 5px 0px;
->>>>>>> 379ef48 (update)
 }
 .popular-stars {
   display: flex;
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 379ef48 (update)
 /**SECTION 3**/
 
 /*ACTIVITIES MARSEILLES*/
@@ -628,19 +493,11 @@ a {
   transition-duration: 300ms;
   transform: scale(1.04);
   cursor: pointer;
-<<<<<<< HEAD
-} 
-.activities-imgb1 {
-  object-fit: cover;
-  width: 100%;
-  height: 90%;  
-=======
 }
 .activities-imgb1 {
   object-fit: cover;
   width: 100%;
   height: 90%;
->>>>>>> 379ef48 (update)
   min-height: 0;
   border-radius: 20px 20px 0 0;
 }
@@ -689,22 +546,13 @@ a {
   font-size: 100%;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 379ef48 (update)
 /***FOOTER***/
 footer {
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
-  background-color: #f2f2f2;
+  background-color: var(--colorthird);
 }
 .footer-all {
   display: flex;
@@ -729,23 +577,10 @@ footer {
   margin: 10px 0 10px 0;
 }
 .footer-link:hover {
-<<<<<<< HEAD
-  color: #0065FC;
+  color: var(--colorprimary);
   cursor: pointer;
 }
 
-
-
-
-
-
-
-=======
-  color: #0065fc;
-  cursor: pointer;
-}
-
->>>>>>> 379ef48 (update)
 /***TABLETTE***/
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .nav-logo {
@@ -761,14 +596,10 @@ footer {
     width: 50%;
     height: 40px;
     border-top: 3px solid transparent;
-    border-bottom: 3px solid #f2f2f2;
+    border-bottom: 3px solid var(--colorthird);
   }
   .nav-button:hover {
-<<<<<<< HEAD
-    border-bottom: 3px solid #0065FC;
-=======
-    border-bottom: 3px solid #0065fc;
->>>>>>> 379ef48 (update)
+    border-bottom: 3px solid var(--colorprimary);
     border-top: 3px solid transparent;
   }
   .search-filter {
@@ -790,19 +621,11 @@ footer {
     flex-wrap: wrap;
   }
   .popular-bloc {
-<<<<<<< HEAD
-    order: 1; 
-    justify-content: start;
-    width: 100%;
-    height: 620px;
-    border-radius: 0%; 
-=======
     order: 1;
     justify-content: start;
     width: 100%;
     height: 620px;
     border-radius: 0%;
->>>>>>> 379ef48 (update)
   }
   .popular-title {
     width: 90%;
@@ -816,11 +639,7 @@ footer {
     padding: 5px 15px 5px 20px;
   }
   .host-bloc {
-<<<<<<< HEAD
-    order:2;
-=======
     order: 2;
->>>>>>> 379ef48 (update)
     min-width: 100%;
     background-color: transparent;
     margin-top: 30px;
@@ -852,34 +671,18 @@ footer {
     height: 250px;
     gap: 40px;
   }
-<<<<<<< HEAD
-  .activities-bottom1, .activities-bottom2, .activities-top1, .activities-top2 {
-=======
   .activities-bottom1,
   .activities-bottom2,
   .activities-top1,
   .activities-top2 {
->>>>>>> 379ef48 (update)
     height: 250px;
   }
   .footer-all {
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-  }  
-}
-
-
-
-
-
-
-
-=======
   }
 }
 
->>>>>>> 379ef48 (update)
 /***MOBILE***/
 @media (max-width: 768px) {
   .nav-logo {
@@ -895,14 +698,10 @@ footer {
     width: 50%;
     height: 40px;
     border-top: 3px solid transparent;
-    border-bottom: 3px solid #f2f2f2;
+    border-bottom: 3px solid var(--colorthird);
   }
   .nav-button:hover {
-<<<<<<< HEAD
-    border-bottom: 3px solid #0065FC;
-=======
-    border-bottom: 3px solid #0065fc;
->>>>>>> 379ef48 (update)
+    border-bottom: 3px solid var(--colorprimary);
     border-top: 3px solid transparent;
   }
   .search-filter {
@@ -922,11 +721,7 @@ footer {
     width: 50px;
     font-size: 18px;
     color: white;
-<<<<<<< HEAD
-    background-color: #0065FC;
-=======
-    background-color: #0065fc;
->>>>>>> 379ef48 (update)
+    background-color: var(--colorprimary);
     font-weight: bold;
     cursor: pointer;
     border-radius: 15px;
@@ -947,19 +742,11 @@ footer {
     flex-wrap: wrap;
   }
   .popular-bloc {
-<<<<<<< HEAD
-    order: 1; 
-    justify-content: start;
-    width: 100%;
-    height: 590px;
-    border-radius: 0%; 
-=======
     order: 1;
     justify-content: start;
     width: 100%;
     height: 590px;
     border-radius: 0%;
->>>>>>> 379ef48 (update)
   }
   .popular-title {
     width: 90%;
@@ -970,11 +757,7 @@ footer {
     margin-bottom: 10px;
   }
   .popular-txt {
-<<<<<<< HEAD
-    padding: 5px 15px 5px 20px;  
-=======
     padding: 5px 15px 5px 20px;
->>>>>>> 379ef48 (update)
   }
   .host-bloc {
     order: 2;
@@ -1012,30 +795,20 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
-    gap: 25px
-  }
-  .activities-column, .activities-column2 {
-=======
     gap: 25px;
   }
   .activities-column,
   .activities-column2 {
->>>>>>> 379ef48 (update)
     width: 90%;
   }
   .activities-column2 {
     height: 425px;
   }
-<<<<<<< HEAD
-  .activities-bottom1, .activities-bottom2, .activities-top1, .activities-top2, .activities-column {
-=======
   .activities-bottom1,
   .activities-bottom2,
   .activities-top1,
   .activities-top2,
   .activities-column {
->>>>>>> 379ef48 (update)
     height: 200px;
   }
   .footer-all {
@@ -1044,15 +817,6 @@ footer {
   }
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 379ef48 (update)
 /***MEMO***/
 
 /**SEE ERRORS**/
@@ -1093,9 +857,3 @@ footer {
   margin: TOP(px) LEFT(px) BOTTOM(px) RIGHT(px);
 }
 */
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 379ef48 (update)
