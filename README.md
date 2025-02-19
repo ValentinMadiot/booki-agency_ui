@@ -23,17 +23,17 @@ Pour plus d'informations, consultez le [dossier](/docs/).
 
 ## <br /> <a name="technologies">🛠️ Technologies</a>
 
-**Autorisé :**
+### ✅ **Autorisé :**
 
 - HTML
 - CSS (Flexbox, Media Queries)
 - CDN
 - Google Fonts
 
-**Interdit :**
+### ❌ **Interdit :**
 
 - JavaScript
-- Frameworks CSS (Bootstrap, Tailwind…)
+- Frameworks CSS (Bootstrap, Tailwind)
 - CSS (Grid, REM, EM)
 - Sass
 
