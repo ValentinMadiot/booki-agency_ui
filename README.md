@@ -1,6 +1,6 @@
 <div align="center">  
     <a href="https://booki-agency-vm.netlify.app/" target="_blank">  
-      <img src="docs/preview.png" alt="Aperçu du projet">  
+      <img src=".docs/preview.png" alt="Aperçu du projet">  
     </a>
     </br>  
     </br>  
