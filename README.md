@@ -19,7 +19,7 @@ Page d'accueil pour une agence de réservation d'hôtels, inspirée du design de
 
 Ce projet adopte une esthétique moderne et minimaliste, développée exclusivement en HTML et CSS. La mise en page suit une approche desktop-first, en s'appuyant uniquement sur Flexbox. Aucun framework CSS n'est autorisé.
 
-Pour plus d'informations, consultez le [dossier](/docs/).
+Pour plus d'informations, consultez le [dossier](/.docs).
 
 ## <br /> <a name="technologies">🛠️ Technologies</a>
 
