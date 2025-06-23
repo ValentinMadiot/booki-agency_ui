@@ -43,9 +43,9 @@ La mise en page repose exclusivement sur **HTML5**, **CSS3**, et **Flexbox**, as
 
 ### ✅ Prérequis
 
-- [Navigateur moderne](https://www.google.com/) (Google Chrome)
-- [Éditeur de code](https://code.visualstudio.com/) (VS Code)
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (extension VS Code)
+- [Google Chrome](https://www.google.com/) &nbsp;—&nbsp; Navigateur moderne
+- [Visual Studio Code](https://code.visualstudio.com/) &nbsp;—&nbsp; Éditeur de code
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) &nbsp;—&nbsp; Extension VS Code
 
 ### 📥 Cloner le projet
 
