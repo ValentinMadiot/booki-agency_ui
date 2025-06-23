@@ -50,7 +50,8 @@ La mise en page repose exclusivement sur **HTML5**, **CSS3**, et **Flexbox**, as
 ### 📥 Cloner le projet
 
 ```bash
-git clone git@github.com:ValentinMadiot/booki-agency_ui.git
+git clone git@github.com:ValentinMadiot/booki-agency_ui
+cd booki-agency_ui
 ```
 
 ### ▶️ Lancer le projet
