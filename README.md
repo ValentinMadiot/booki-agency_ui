@@ -41,7 +41,7 @@ La mise en page repose exclusivement sur **HTML5**, **CSS3**, et **Flexbox**, as
 
 ## <br /> <a name="installation">🚀 Installation</a>
 
-### ✅ Pré-requis
+### ✅ Prérequis
 
 - [Google Chrome](https://www.google.com/) &nbsp;—&nbsp; Navigateur moderne
 - [Visual Studio Code](https://code.visualstudio.com/) &nbsp;—&nbsp; Éditeur de code
