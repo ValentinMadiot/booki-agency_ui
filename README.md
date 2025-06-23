@@ -41,7 +41,7 @@ La mise en page repose exclusivement sur **HTML5**, **CSS3**, et **Flexbox**, as
 
 ## <br /> <a name="installation">🚀 Installation</a>
 
-### ✅ Prérequis
+### ✅ Pré-requis
 
 - [Google Chrome](https://www.google.com/) &nbsp;—&nbsp; Navigateur moderne
 - [Visual Studio Code](https://code.visualstudio.com/) &nbsp;—&nbsp; Éditeur de code
@@ -53,6 +53,6 @@ La mise en page repose exclusivement sur **HTML5**, **CSS3**, et **Flexbox**, as
 git clone git@github.com:ValentinMadiot/booki-agency_ui.git
 ```
 
-### ▶️ Lancer localement
+### ▶️ Lancer le projet
 
 Il suffit d’ouvrir le fichier `index.html` dans un navigateur, ou d’utiliser l’extension **Live Server** sur VS Code pour un aperçu dynamique.
