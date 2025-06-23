@@ -15,33 +15,37 @@
 
 ## <br /> <a name="introduction">🎨 Introduction</a>
 
-Page d'accueil pour une agence de réservation d'hôtels, inspirée du design de Booking.
+Page d’accueil d’une agence de réservation d’hébergements et d’activités, développée dans le cadre d’un projet scolaire.
 
-Ce projet adopte une esthétique moderne et minimaliste, développée exclusivement en HTML et CSS. La mise en page suit une approche desktop-first, en s'appuyant uniquement sur Flexbox. Aucun framework CSS n'est autorisé.
+Design inspiré de Booking.com avec une approche **desktop-first**, sans JavaScript ni frameworks.
 
-Pour plus d'informations, consultez le [dossier](/.docs).
+La mise en page repose exclusivement sur **HTML5**, **CSS3**, et **Flexbox**, assurant une structure propre et responsive.
+
+> 📁 Pour plus de détails, consulte le [dossier](/.docs).
 
 ## <br /> <a name="technologies">🛠️ Technologies</a>
 
 ### ✅ **Autorisé :**
 
-- HTML
-- CSS (Flexbox, Media Queries)
-- CDN
+- HTML5 sémantique
+- CSS3 (Flexbox, Media Queries)
+- CDN externes
 - Google Fonts
 
 ### ❌ **Interdit :**
 
 - JavaScript
-- Frameworks CSS (Bootstrap, Tailwind)
-- CSS (Grid, REM, EM)
-- Sass
+- CSS Grid, unités REM/EM
+- Préprocesseurs (Sass, Less)
+- Frameworks CSS (Bootstrap, Tailwind, etc.)
 
 ## <br /> <a name="installation">🚀 Installation</a>
 
-### ✅ Pré-requis
+### ✅ Prérequis
 
-🛠️ [**Git**](https://git-scm.com/) &nbsp;&nbsp;
+- [Navigateur moderne](https://www.google.com/) (Google Chrome)
+- [Éditeur de code](https://code.visualstudio.com/) (VS Code)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (extension VS Code)
 
 ### 📥 Cloner le projet
 
@@ -49,6 +53,6 @@ Pour plus d'informations, consultez le [dossier](/.docs).
 git clone git@github.com:ValentinMadiot/booki-agency_ui.git
 ```
 
-### ▶️ Lancer le projet
+### ▶️ Lancer localement
 
-Utilisez Live Server pour un rechargement en temps réel.
+Il suffit d’ouvrir le fichier `index.html` dans un navigateur, ou d’utiliser l’extension **Live Server** sur VS Code pour un aperçu dynamique.
